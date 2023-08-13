@@ -1,3 +1,11 @@
+# React とりあえず API call sample
+APIをコールするのに最低限必要なサンプルリポジトリ。  
+キーとしては  
+```
+  const getPosts = async () => dispatch(await GetPosts());
+```
+で非同期のアクション処理を実現可能にしている。  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
